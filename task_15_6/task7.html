@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Registration Form !</h1>
-    <div style="border: 1px solid black">
+    <div style="border: 1px solid black; padding-left: 30px; width: 400px; padding-right: 30px; ">
     <h3>Personal details</h3>
     <hr>
     <label for="fname">First name:</label>
@@ -18,9 +18,9 @@
     <input type="text" id="email" name="email"><br><br>
 
     Gender:
-        <input type="radio" id="male" value="male">
+        <input type="radio" name="Gender" id="male" value="male">
         <label for="male">Male</label>
-        <input type="radio" id="female" value="female">
+        <input type="radio" name="Gender" id="female" value="female">
         <label for="female">Female</label>
     
         <label for="city">City:</label>
@@ -32,7 +32,8 @@
     </select>
     <br><br>
 
-    <input type="Sign up" value="Sign up">
+    <input type="button" value="Sign up">
+    <br><br>
 </div>
 </body>
 </html>
