@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(255, 223, 185);
+}
+
+.div1 {
+    border-style: solid;
+    background: rgb(247, 255, 222);
+    width: 80%;
+    padding: 10px;
+}
+.div2 {
+    border-style: dashed;
+    background: rgb(247, 255, 222);
+    width: 80%;
+    padding: 10px;
+}
+
+.div3{
+    border-style: dashed;
+    border-color: red;
+}
+
+.div4 {
+    border-style: solid;
+    border-color: black;
+    background: rgb(247, 255, 222);
+    color: rgb(187, 30, 192);
+    width: 80%;
+    padding: 10px;
+}
+
+.y{
+    background-color: yellow;
+}
+
+.c{
+    background-color: chocolate;
+}
