@@ -1,0 +1,16 @@
+form {
+    width: 50%;
+  }
+
+  label,
+  input  {
+
+    display: inline-block;
+    width: 20%
+
+  }
+
+  div{
+    display: inline-block;
+    width: 15%;
+  }
