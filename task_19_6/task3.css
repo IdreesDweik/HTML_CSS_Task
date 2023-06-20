@@ -1,21 +1,29 @@
+
 .last:hover{
     border: 2px solid grey;
-    font-size: 20px;
-    opacity: 0.5;
-    color: black;
+    background-color: white;
+    display:inline-block;
+    color: rgb(41, 41, 41);
+    transform: translateY(-20%);
+    transform: translateX(-5%);
+    font-weight: normal;
+}
+.last{
+    font-weight:bold;
 }
 .paragraphs{
     width: auto;
 
 }
 .parent{
-    position: relative;
-}
-img{
-    position: absolute;
-    top: 10%;
-    right: 10%;
     background-color: white;
-    border:1px solid black;
-    
+    background-image: url("blue\ guy.png");
+    background-repeat: repeat-y;
+    position: absolute;
+    border: 1px solid black;
+    width: 200px;
+    height: 600px;
+    background-size: 100%;
+    top: 30px;
+    right: 40px;
 }
