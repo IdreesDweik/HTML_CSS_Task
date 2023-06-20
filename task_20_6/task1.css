@@ -1,4 +1,3 @@
-
 .last:hover{
     border: 2px solid grey;
     background-color: white;
@@ -17,7 +16,7 @@
 }
 .parent{
     position: fixed;
-    background-image: url("blue\ guy.png");
+    background-image: url("/task_19_6/blue\ guy.png");
     background-color: white;
     background-repeat: repeat-y;
     border: 1px solid black;
