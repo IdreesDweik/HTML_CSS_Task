@@ -1,0 +1,23 @@
+ * {
+    box-sizing: border-box;
+ }
+  
+  
+  .container {
+    display: flex;
+    align-items: stretch ;
+    padding: 4px;
+    background-color: rgb(255, 156, 156);
+    text-align: center;
+    padding: auto;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+  }
+  
+  .item {
+    width: 60px;
+    height: 490px;
+    font-size: 80px;
+    color: white;
+  }

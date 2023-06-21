@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+.grid {
+    margin: 0 auto;
+    width: 60%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: start;
+  }
+
+  .grid div {
+    margin-right: 4px;
+  }

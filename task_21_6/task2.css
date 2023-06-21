@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+ }
+  
+  
+  .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 4px;
+    background-color: rgb(255, 156, 156);
+    text-align: center;
+    padding: auto;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+  }
+  
+  .item {
+    display: flex;
+    width: 245px;
+    height: 490px;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
