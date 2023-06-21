@@ -3,11 +3,9 @@
 }
 
 .grid {
-    margin: 0 auto;
-    width: 60%;
     display: grid;
     grid-template-columns: auto auto auto;
-    justify-content: start;
+    justify-content: center;
   }
 
   .grid div {
