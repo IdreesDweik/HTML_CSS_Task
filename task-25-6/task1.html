@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <title>bootstrap</title>
+    <script>
+        document.addEventListener('contextmenu', 
+    event => event.preventDefault()
+    );
+    document.addEventListener("keydown", function (event){
+    if (event.ctrlKey){
+    event.preventDefault();
+    }
+    if(event.keyCode == 123){
+    event.preventDefault();
+    }
+    })
+      </script>
+</head>
+<body>
+    <header class="container text-center w-auto mt-3 pb-4">
+        <div class="jumbotron bg-secondary bg-opacity-25 pb-4">
+        <h3 class="display-5 pt-5">Welcome to our website!</h3>
+        <p class="lead"> Look at this button! Wow, let's click on it!</p>
+        <a class="btn btn-primary mx-0 w-100" role="button">Learn more</a>
+        </div>
+    </header>
+       
+    <main class="container">
+        <hr>
+        <p><b>Let's look at some random pictures!</b> from http://lorempixel.com</h3>
+        <div class="row">
+            <div class="row">
+                <div class="col-sm">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, culpa ad fuga sint commodi aliquid quod ducimus iste cum nobis magnam, ut in nostrum dignissimos optio voluptatibus reprehenderit cupiditate autem.
+                </div>
+                <div class="col-sm">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi numquam expedita dolor illo fugit? Eos corrupti perspiciatis vel cupiditate pariatur explicabo placeat repellat odio unde tempora, tenetur eligendi aperiam laboriosam?
+                </div>
+                <div class="col-sm">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod cupiditate vero assumenda provident corrupti facere beatae quae, adipisci nobis quasi quia repudiandae ipsa sequi, hic suscipit! Aperiam pariatur soluta architecto!
+                </div>
+            </div>
+         </div>
+         </div> 
+         <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="./whatisacomputer_pc.jpg" class="img-fluid border border-3 rounded">
+              </div>
+              <div class="col-md-4">
+                <img src="./whatisacomputer_pc.jpg" class="img-fluid border border-3 rounded">
+              </div>
+              <div class="col-md-4">
+                <img src="./whatisacomputer_pc.jpg" class="img-fluid border border-3 rounded">
+              </div>
+            </div>
+        </main>
+
+        <footer class="container text-center c-w">
+        <hr>
+        <div class="jumbotron bg-success ">
+        <p class="p-2 text-white">Thanks for visiting</p>
+        </footer>    
+</body>
+</html>
